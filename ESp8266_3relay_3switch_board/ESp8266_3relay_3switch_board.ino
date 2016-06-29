@@ -1,4 +1,5 @@
-﻿//wifi switch with ESP8266 using MQTT.
+
+//wifi switch with ESP8266 using MQTT.
 
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
@@ -294,4 +295,5 @@ String toString(byte* payload, unsigned int length) {
   String msg = String(buff);
   return msg;
 }
+
 
